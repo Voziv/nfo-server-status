@@ -1,0 +1,30 @@
+{
+  "name": "lrobert/nfo-server-status",
+  "description": "A handy html parser for status pages on Nuclear Fallout Servers",
+  "keywords": [
+    "NFOServers",
+    "murmur",
+    "teamspeak",
+    "ventrilo"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "lrobert",
+      "email": "lrobert@leerobert.ca"
+    }
+  ],
+  "require": {
+    "symfony/dom-crawler": "^2.6",
+    "symfony/css-selector": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "lrobert\\NFOServerStatus\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
